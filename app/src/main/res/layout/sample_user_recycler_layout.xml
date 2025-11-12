@@ -1,0 +1,23 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageViewUserRecyclerLayout"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="top|start"
+        android:contentDescription="user avatart"
+        tools:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/UserRecyclerLayout"
+        android:layout_width="344dp"
+        android:layout_height="64dp"
+        android:layout_gravity="top|end"
+        android:gravity="start|center"
+        android:text="Username: ali / email:ali@gmail.com"
+        android:textSize="18sp" />
+</FrameLayout>
